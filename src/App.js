@@ -59,39 +59,6 @@ function App() {
     </div>
   );
 }
-// document.addEventListener('DOMContentLoaded', function() {
-//   let articleElements =  Array.from(document.getElementsByTagName('article'));
-  
-//   articleElements.forEach(function(article) {
-//       article.parentNode.removeChild(article);
-//   });
-
-//   let sectionElements = Array.from(document.getElementsByTagName('section'));
-//   sectionElements.forEach(function(s) {
-//       s.parentNode.removeChild(s);
-//   });
-
-//   let elements = document.querySelectorAll('#content > *');
-
-//   elements.forEach(function(element) {
-//       let dataClassValue = element.getAttribute('data-class');
-//       let dataTagValue = element.getAttribute('data-tag');
-//       let dataIdValue = element.getAttribute('data-id');
-
-//       if (!(dataClassValue.startsWith('23') ||
-//             (dataTagValue && dataTagValue.endsWith('93')) ||
-//             (dataIdValue && dataIdValue.includes('21')))) {
-//           element.parentNode.removeChild(element);
-//       }
-//   });
-
-//   let chars = document.getElementsByTagName('i');
-//   let link = '';
-//   for(let i=0; i<chars.length; i++){
-//       link += chars[i].getAttribute('value');
-//   }
-//   console.log('link : ',link);
-// });
 
 
 export default App;
